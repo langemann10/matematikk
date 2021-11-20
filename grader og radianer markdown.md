@@ -1,7 +1,5 @@
 # Grader og radianer
 
----
-
 Her ser vi på den matematiske sammenhengen mellom vinkelmålene grader og radianer.  
 Vi lager funksjoner i python for å gjøre om mellom dem.
 
@@ -17,8 +15,6 @@ Det er plass til $ 2 \pi $ antall radianer i en sirkel.
 
 
 ## Fra grader til radianer
-
----
 
 Forholdet mellom grader og radianer er:
 
@@ -60,8 +56,6 @@ print(grader_til_radianer(180))
 
 ## Fra radianer til grader
 
----
-
 Vi vet at:
 
 $ radianer = \frac{grader}{180 \unicode{xB0}} \cdot \pi $
@@ -93,8 +87,6 @@ print(radianer_til_grader(2*pi))
 
 
 ## Se også:
-
----
 
  - https://no.wikipedia.org/wiki/Radian
  
