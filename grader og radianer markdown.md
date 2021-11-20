@@ -11,14 +11,14 @@ Se for deg en sirkel som deles inn i sektorer.
 
 _b_ = _r_
 
-Det er plass til 2 * PI antall radianer i en sirkel.
+Det er plass til *2 * PI* antall radianer i en sirkel.
 
 
 ## Fra grader til radianer
 
 Forholdet mellom grader og radianer er:
 
-360 grader = 2 * PI
+*360 grader = 2 * PI*
 
 Vi kan dermed gjøre om fra grader til radianer denne måten:
 
