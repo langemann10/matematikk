@@ -11,24 +11,24 @@ Se for deg en sirkel som deles inn i sektorer.
 
 _b_ = _r_
 
-Det er plass til $ 2 \pi $ antall radianer i en sirkel.
+Det er plass til 2 * PI antall radianer i en sirkel.
 
 
 ## Fra grader til radianer
 
 Forholdet mellom grader og radianer er:
 
-$ 360 \unicode{xB0} = 2 \pi $
+360 grader = 2 * PI
 
 Vi kan dermed gjøre om fra grader til radianer denne måten:
 
-$ radianer = \frac{grader}{180 \unicode{xB0}} \cdot \pi $
+radianer = (grader / 180) * PI
 
 _Eksempel:_
 
-Her regner vi om $ 45 \unicode{xB0} $ til radianer:
+Her regner vi om 45 grader til radianer:
 
-$ \frac{45 \unicode{xB0}}{180 \unicode{xB0}} \cdot \pi = 0,785 $
+(45 / 180) * PI = 0,785
 
 45 grader tilsvarer altså 0,785 radianer.
 
@@ -58,11 +58,11 @@ print(grader_til_radianer(180))
 
 Vi vet at:
 
-$ radianer = \frac{grader}{180 \unicode{xB0}} \cdot \pi $
+radianer = (grader / 180) * PI
 
 Ved hjelp av litt algebra kan vi skrive om til:
 
-$ grader = \frac{radianer}{\pi} \cdot 180 \unicode{xB0} $
+grader = (radianer / PI) * 180
 
 I python kan vi dermed lage denne funksjonen:
 
