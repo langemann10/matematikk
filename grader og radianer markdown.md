@@ -9,7 +9,7 @@ Radian er et vinkelmål, definert ved buelengde delt på radius.
 Se for deg en sirkel som deles inn i sektorer.
 Én radian er da en sektor hvor buelengden _b_ er like lang som radiusen _r_.
 
-_b_ = _r_
+*b = r*
 
 Det er plass til *2 * PI* antall radianer i en sirkel.
 
@@ -22,13 +22,13 @@ Forholdet mellom grader og radianer er:
 
 Vi kan dermed gjøre om fra grader til radianer denne måten:
 
-radianer = (grader / 180) * PI
+*radianer = (grader / 180) * PI*
 
 _Eksempel:_
 
 Her regner vi om 45 grader til radianer:
 
-(45 / 180) * PI = 0,785
+*(45 / 180) * PI = 0,785*
 
 45 grader tilsvarer altså 0,785 radianer.
 
@@ -58,11 +58,11 @@ print(grader_til_radianer(180))
 
 Vi vet at:
 
-radianer = (grader / 180) * PI
+*radianer = (grader / 180) * PI*
 
 Ved hjelp av litt algebra kan vi skrive om til:
 
-grader = (radianer / PI) * 180
+*grader = (radianer / PI) * 180*
 
 I python kan vi dermed lage denne funksjonen:
 
